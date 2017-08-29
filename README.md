@@ -1,11 +1,11 @@
-###首先
+### 首先
 
 ***
->  * 喜欢的请点心，关注，star ,fork,这些是我坚持下去的动力
->  * demo地址 [demo](http://www.neptunechen.top/elem/#/goods) （请用chrome的手机模式预览）
->  * 本项目地址 [github地址](https://github.com/neptunechen/vue2_sell)
+  * 喜欢的请点心，关注，star ,fork,这些是我坚持下去的动力
+  * demo地址 [demo](http://www.neptunechen.top/elem/#/goods) （请用chrome的手机模式预览）
+  * 本项目地址 [github地址](https://github.com/neptunechen/vue2_sell)
 
->  * 手机扫一扫  ![demo.png](http://upload-images.jianshu.io/upload_images/7658581-98af58434188fd69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  * 手机扫一扫  ![demo.png](http://upload-images.jianshu.io/upload_images/7658581-98af58434188fd69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ### 项目技术架构
@@ -18,7 +18,7 @@
 *  stylus
 *  webpack
 
-###上图
+### 上图
 ***
 * 加入购物车动画
 
@@ -32,7 +32,7 @@
 
 ![3333.gif](http://upload-images.jianshu.io/upload_images/4249223-f0921b44740f6d4f.gif?imageMogr2/auto-orient/strip)
 
-###安装
+### 安装
 ***
 项目地址：（`git clone`）
 ```shell
@@ -66,7 +66,7 @@ npm install -g eslint
 ```
 npm install friendly-errors-webpack-plugin --save-dev
 ```
-###目录结构
+### 目录结构
 ***
 <pre>
 ├── build              // 构建服务和webpack配置
