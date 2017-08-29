@@ -1,26 +1,105 @@
-# vue-sell
-Vue.js 高仿饿了么外卖 App 课程源码，课程地址： http://coding.imooc.com/class/74.html
+###首先
 
-本源码基于 GPL 协议，仅仅用于 Vue 实战项目的学习，不可作为商业用途。
-我们抵制和鄙视一切盗版侵权行为，请尊重作者的劳动果实！
+***
+>  * 喜欢的请点心，关注，star ,fork,这些是我坚持下去的动力
+>  * demo地址 [demo](http://www.neptunechen.top/elem/#/goods) （请用chrome的手机模式预览）
+>  * 本项目地址 [github地址](https://github.com/neptunechen/vue2_sell)
 
-[项目演示地址](http://vuejssellapp.t.imooc.io/#!/)
+>  * 手机扫一扫  ![demo.png](http://upload-images.jianshu.io/upload_images/7658581-98af58434188fd69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![二维码](http://static.galileo.xiaojukeji.com/static/tms/8btyrxfwosv6ht2whlut3j0mgwr84nkp.png)
 
-## 你可以学到什么
-我们可以通过一张图来认识一下本课程的知识结构
+### 项目技术架构
+***
+*  vue-cli
+*  vue
+*  vue-resource
+*  vue-router
+*  vue-infinite-scroll
+*  stylus
+*  webpack
 
-![vue-sell](https://webapp.didistatic.com/static/webapp/shield/vue-sell.png)
+###上图
+***
+* 加入购物车动画
 
-## 如何学习
-请从正规渠道购买本课程的教学视频： http://coding.imooc.com/class/74.html。
-你还可以加入课程讨论群，与同学一起讨论问题，还可以得到我的亲自指导。
+![11.gif](http://upload-images.jianshu.io/upload_images/4249223-8d462b93150db24e.gif?imageMogr2/auto-orient/strip)
 
-## 适合人群
-适合有一定 Vue.js 和前端基础知识并且想深入学习 Vue.js 并运用在实战项目的同学。
+* 弹出购物车 商品详情页
 
-## TODO
-~~由于本课程录制时间较早，编写代码的时候 Vue.js 2.0 还未正式发布，所以源码采用 1.0 编写，后续会更新到 2.0 版本。~~
+![2222.gif](http://upload-images.jianshu.io/upload_images/4249223-71b66b4249d868bd.gif?imageMogr2/auto-orient/strip)
 
-master 代码已经升级到最新 Vue.js 2.1.10 版本，如果想查看 1.0 版本的代码可以切换到 1.0 的代码分支。
+* 分类切换 图片左右滑动
+
+![3333.gif](http://upload-images.jianshu.io/upload_images/4249223-f0921b44740f6d4f.gif?imageMogr2/auto-orient/strip)
+
+###安装
+***
+项目地址：（`git clone`）
+```shell
+git clone https://github.com/liangxiaojuan/eleme.git
+```
+通过`npm`安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/))
+
+```
+npm install
+```
+启动服务(http://localhost:8080)
+
+```
+npm run dev
+```
+发布代码
+
+```
+npm run build
+```
+### 安装注意
+安装 vue-cli
+```
+npm install -g vue-cli
+```
+安装 vue-cli eslint
+```
+npm install -g eslint
+```
+安装依赖 friendly-errors-webpack-plugin
+```
+npm install friendly-errors-webpack-plugin --save-dev
+```
+###目录结构
+***
+<pre>
+├── build              // 构建服务和webpack配置
+├── config             // 项目不同环境的配置
+├── dist               // 项目build目录
+├── index.html         // 项目入口文件
+├── package.json       // 项目配置文件
+├── src                // 生产目录
+│   ├── assets         // 图片资源
+│   ├── common         // 公共的css js 资源
+│   ├── components     // 各种组件
+│   ├── App.vue        // 主页面 
+│   └── main.js        // Webpack 预编译入口
+</pre>
+
+###实现的功能
+***
+* 商品滚动 ，商品滚轮滚动
+* 商品联动
+* 加入购物车，移除购物车
+* 显示评论 评论筛选
+* 图片左右滑动
+* 商品详情  父子组件的通信
+* 等等
+
+### 正在实现的功能
+***
+* vuex
+* 无限滚动
+* 上拉刷新
+* 更多更精彩的内容
+
+### 最后
+***
+* 如果喜欢一定要 star哈!!!（谢谢!!）
+* 如果有意见和问题 请在 lssues提出，我会在线解答。
