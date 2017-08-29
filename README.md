@@ -82,7 +82,7 @@ npm install friendly-errors-webpack-plugin --save-dev
 │   └── main.js        // Webpack 预编译入口
 </pre>
 
-###实现的功能
+### 实现的功能
 ***
 * 商品滚动 ，商品滚轮滚动
 * 商品联动
